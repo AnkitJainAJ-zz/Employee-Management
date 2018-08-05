@@ -1,0 +1,54 @@
+.borderBox{
+	width: 100%;
+    border: 1px solid gray;
+    font-size: 50px;
+    height: 70px;
+    border-radius: 8px;
+    margin: 22px 0px;
+
+    &__error{
+    	border: 1px solid red;
+    }
+}
+
+.radioBtn {
+	height: 40px;
+	width: 50px;
+}
+
+.roleText{
+	width:90%;
+	display: inline-block;
+}
+
+.roleWrapper{
+	margin: 25px 0px;
+}
+
+.roleContainer{
+	border-bottom: 1px solid gray;
+}
+
+.saveBtn{
+	/*height: 40px;
+	width: 40px;*/
+	border: 0;
+	border-radius: 8px;
+	background-color: skyblue;
+	display: flex;
+	height: 100px;
+    width: 50%;
+    color:white;
+    margin-top: 20px;
+}
+
+.delBtn{
+	border: 1px solid gray;
+	border-radius: 8px;
+	background-color: white;
+	display: flex;
+	height: 100px;
+    width: 50%;
+    color: red;
+    margin-top: 20px;
+}
